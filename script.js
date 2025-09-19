@@ -1,5 +1,12 @@
 function findLargest(a, b, c) {
   //your code here
+	let largest=a;
+	if(b>a){
+		largest=b;
+	}else if(c>a) {
+		largest=c;
+	}
+	return largest;
 }
 
 const num1 = parseInt(prompt("Enter First Number."));
